@@ -32,10 +32,12 @@ requirements:
     - r-base
     - r-rgl
     - r-scatterplot3d
+    - r-xtable
   run:
     - r-base
     - r-rgl
     - r-scatterplot3d
+    - r-xtable
 
 test:
   commands:
@@ -44,10 +46,12 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=bpca
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Implements biplot (2d and 3d) of multivariate data based on principal components analysis and diagnostic tools of the quality of the reduction.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
