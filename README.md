@@ -1,11 +1,11 @@
-About r-bpca
-============
+About r-bpca-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bpca-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=bpca
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bpca-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implements biplot (2d and 3d) of multivariate data based on principal components analysis and diagnostic tools of the quality of the reduction.
 
