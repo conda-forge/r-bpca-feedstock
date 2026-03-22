@@ -26,7 +26,6 @@ requirements:
     - r-rgl
     - r-scatterplot3d
     - r-xtable
-    - libgl-devel                    # [linux]
   run:
     - r-base
     - r-rgl
